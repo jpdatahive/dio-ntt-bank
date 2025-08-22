@@ -1,6 +1,11 @@
 package br.com.dio_ntt.model;
 
-import java.util.Arrays;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @EqualsAndHashCode
 @ToString
@@ -17,6 +22,7 @@ public class Money {
         this.history.add(history);
     }
 
-    public Arrays getHistory() {
+    public List<MoneyAudit> getHistory() {
+        return history;
     }
 }

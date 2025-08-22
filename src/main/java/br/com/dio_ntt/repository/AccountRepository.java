@@ -1,5 +1,6 @@
 package br.com.dio_ntt.repository;
 
+import br.com.dio_ntt.exception.PixInUseException;
 import br.com.dio_ntt.model.AccountWallet;
 import br.com.dio_ntt.model.MoneyAudit;
 

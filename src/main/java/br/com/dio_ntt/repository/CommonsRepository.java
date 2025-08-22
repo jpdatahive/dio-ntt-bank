@@ -1,5 +1,6 @@
 package br.com.dio_ntt.repository;
 
+import br.com.dio_ntt.exception.NoFundsEnoughException;
 import br.com.dio_ntt.model.Money;
 import br.com.dio_ntt.model.MoneyAudit;
 import br.com.dio_ntt.model.Wallet;
