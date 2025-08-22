@@ -1,5 +1,7 @@
 package br.com.dio_ntt.model;
 
+import java.util.Arrays;
+
 @EqualsAndHashCode
 @ToString
 @Getter
@@ -15,4 +17,6 @@ public class Money {
         this.history.add(history);
     }
 
+    public Arrays getHistory() {
+    }
 }
